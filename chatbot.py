@@ -16,7 +16,7 @@ genai.configure(api_key=google_api)
 app = Flask(__name__)
 
 # Initialize the Generative Model
-model = genai.GenerativeModel('models/gemini-pro')  # Updated model name
+model = genai.GenerativeModel('gemini-2.0-pro-exp-02-05')  # Updated model name
 
 # Conversation history (in-memory, for demo purposes)
 conversation_history = []
